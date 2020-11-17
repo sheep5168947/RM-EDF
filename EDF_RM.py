@@ -87,7 +87,7 @@ def EDF(filename):
             names['task%s' % i] = Mytask(phase_time=jobs[i][0], period=jobs[i]
                                          [1], relative_deadline=jobs[i][2], execution_time=jobs[i][3], absolute_deadline=0, TID=i+1)
         for i in range(len(jobs)):
-            if (clock-names['task%s' % i].phase_time) % names['task%s' % i].period == 0:
+            if ((clock-names['task%s' % i].phase_time) % names['task%s' % i].period == 0 and clock-names['task%s' % i].phase_time >= 0):
                 names['task%s' % i].absolute_deadline = clock + \
                     names['task%s' % i].relative_deadline
                 ready_queue.append(names['task%s' % i])
@@ -97,7 +97,7 @@ def EDF(filename):
         # 4.priority最高的exe要減掉一\
         if len(ready_queue) != 0:
             ready_queue[0].execution_time -= 1
-            f.write("Time %s : Task %s\n" % (clock,ready_queue[0].TID))
+            f.write("Time %s : Task %s\n" % (clock, ready_queue[0].TID))
             if ready_queue[0].execution_time == 0:
                 del ready_queue[0]
         else:
@@ -123,13 +123,15 @@ def RM(filename):
         LCM = computeLcm(LCM, jobs[i][1])
         schedulability += float(names['task%s' % i].execution_time) / \
             float(names['task%s' % i].period)
-        if MaxPH < jobs[i][0]:  
+        if MaxPH < jobs[i][0]:
             MaxPH = jobs[i][0]
-    if schedulability <= len(jobs)*(pow(2,1/len(jobs))-1):
-       
+    if schedulability <= len(jobs)*(pow(2, 1/len(jobs))-1):
+
         f.write("Schedulable!\n")
     else:
         f.write("Unschedulable or Schedulable!\n")
+    print(LCM)
+    print(MaxPH)
     while clock < LCM+MaxPH:
         # 1.判斷readyqueue是否有missdeadline的job
         i = 0
@@ -145,7 +147,7 @@ def RM(filename):
             names['task%s' % i] = Mytask(phase_time=jobs[i][0], period=jobs[i]
                                          [1], relative_deadline=jobs[i][2], execution_time=jobs[i][3], absolute_deadline=0, TID=i+1)
         for i in range(len(jobs)):
-            if (clock-names['task%s' % i].phase_time) % names['task%s' % i].period == 0:
+            if (clock-names['task%s' % i].phase_time) % names['task%s' % i].period == 0 and clock-names['task%s' % i].phase_time >= 0:
                 names['task%s' % i].absolute_deadline = clock + \
                     names['task%s' % i].relative_deadline
                 ready_queue.append(names['task%s' % i])
@@ -163,6 +165,7 @@ def RM(filename):
         clock += 1
     f.write("Missed Jobs = %s\n" % misstask)
     f.write("Sum of jobs = %s\n" % sumOFjobs)
+
 
 for i in range(1, 7):
     f = open("EDF test%s.txt" % i, 'w')

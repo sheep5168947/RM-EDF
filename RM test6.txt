@@ -1,13 +1,13 @@
 Unschedulable or Schedulable!
-Time 0 : Task 2
-Time 1 : Task 1
-Time 2 : Task 1
-Time 3 : Task 2
-Time 4 : Task 2
+Time 0 : No Task
+Time 1 : No Task
+Time 2 : No Task
+Time 3 : No Task
+Time 4 : No Task
 Time 5 : Task 1
 Time 6 : Task 1
-Time 7 : Task 2
-Time 8 : Task 2
+Time 7 : Task 3
+Time 8 : Task 3
 Time 9 : Task 1
 Time 10 : Task 1
 Time 11 : Task 2
@@ -29,5 +29,5 @@ Time 26 : Task 1
 Time 27 : Task 2
 Time 28 : Task 2
 Time 29 : Task 1
-Missed Jobs = 3
-Sum of jobs = 16
+Missed Jobs = 2
+Sum of jobs = 13
