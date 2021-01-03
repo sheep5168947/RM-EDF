@@ -1,40 +1,33 @@
-
 import re
+import math
 
 
-class Mytask():
-    def __init__(self, phase_time, period, relative_deadline, execution_time, absolute_deadline):
-        self.phase_time = phase_time
+class PeriodTask():
+    def __init__(self, period, execution_time, absolute_deadline, TID):
         self.period = period
-        self.relative_deadline = relative_deadline
         self.execution_time = execution_time
         self.absolute_deadline = absolute_deadline
+        self.TID = TID
 
 
-class Node():
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
-
-
-class LinkedList():
-    def __init__(self):
-        self.head = None
+class AperiodTask():
+    def __init__(self, arrive_time, execution_time, TID):
+        self.arrive_time = arrive_time
+        self.execution_time = execution_time
+        # self.absolute_deadline = absolute_deadline
+        self.TID = TID
 
 
 def Readfile(filename):
     f = open(filename, mode="r")
-
     test1 = f.readlines()
+    print(len(test1))
     job = []
-
     for i in range(len(test1)):
-
         splitstr = re.split(",| |\n", test1[i])
-        # print(splitstr)
+        print(splitstr)
         rem = []
         for j in range(len(splitstr)):
-
             if splitstr[j] == " " or splitstr[j] == "," or splitstr[j] == "":
                 continue
             else:
@@ -43,69 +36,81 @@ def Readfile(filename):
     return job
 
 
-def RecursiveGcd(x, y):
-
-    if y == 0:
-        return x
-    else:
-        return RecursiveGcd(y, x % y)
-
-
-def computeLcm(x, y):
-    lcm = (x*y)//RecursiveGcd(x, y)
-    return lcm
-
-
-def sort_priority(e):
+def sort_priority_EDF(e):
     return e.absolute_deadline
 
-
-def EDF(filename):
-    jobs = Readfile(filename)
+def EDF(period, aperiod):
+    peroid_jobs = Readfile(period)
+    aperiod_jobs = Readfile(aperiod)
     clock = 0
-    misstask = 0
-    LCM = 1
-    MaxPH = 0
+    cus_deadline = 0
+    MissPJobNumber = 0
+    MaxSimTime = 1000
     names = globals()
-    ready_queue = []
-    for i in range(len(jobs)):
-        names['task%s' % i] = Mytask(phase_time=jobs[i][0], period=jobs[i]
-                                     [1], relative_deadline=jobs[i][2], execution_time=jobs[i][3], absolute_deadline=0)
-        LCM = computeLcm(LCM, jobs[i][1])
-        if MaxPH < jobs[i][0]:
-            MaxPH = jobs[i][0]
-    while clock < LCM+MaxPH:
-
+    TotalResponseTime = 0
+    ready_queue_period = []
+    ready_queue_aperiod = []
+    # schedulability = 0
+    TotalPJobNumber = 0
+    for i in range(len(peroid_jobs)):
+        names['period_task%s' % i] = PeriodTask(
+            period=peroid_jobs[i][0], execution_time=peroid_jobs[i][1], absolute_deadline=0, TID=i+1)
+    for i in range(len(aperiod_jobs)):
+        names['aperiod_task%s' % i] = AperiodTask(
+            arrive_time=aperiod_jobs[i][0], execution_time=aperiod_jobs[i][1], TID=i+1)
+    while clock < MaxSimTime:
+        if cus_deadline > clock:
+            continue
+        else:
+            cus_deadline = clock
         # 1.判斷readyqueue是否有missdeadline的job
-        ready_length = len(ready_queue)
-        for i in range(ready_length):
-            print(i)
-            if ready_queue[i].absolute_deadline-clock-ready_queue[i].execution_time < 0:
-                del ready_queue[i]
-                ready_length -= 1
-                misstask += 1
-            if i == ready_length-1:
+
+        i = 0
+        while True:
+            if i >= len(ready_queue_period):
                 break
-
-        # 2.判斷task是否進來 並加入readyqueue
-        for i in range(len(jobs)):
-            if (clock-names['task%s' % i].phase_time) % names['task%s' % i].period == 0:
-                names['task%s' % i].absolute_deadline = clock + \
-                    names['task%s' % i].relative_deadline
-                ready_queue.append(names['task%s' % i])
-        # 3.根據priority sort ready queue
-        ready_queue.sort(key=sort_priority)
-        print("第%s個" % clock)
-
-        for i in range(len(ready_queue)):
-            print(ready_queue[i].absolute_deadline)
+            if ready_queue_period[i].absolute_deadline-clock-ready_queue_period[i].execution_time < 0:
+                ready_queue_period.pop(i)
+                MissPJobNumber += 1
+            i += 1
+        # 2.判斷period_task是否進來 並加入readyqueue
+        for i in range(len(peroid_jobs)):
+            names['Ptask%s' % i] = PeriodTask(period=peroid_jobs[i]
+                                             [0], execution_time=peroid_jobs[i][1], absolute_deadline=0, TID=i+1)
+        for i in range(len(peroid_jobs)):
+            if clock % names['Ptask%s' % i].period == 0:
+                names['Ptask%s' % i].absolute_deadline = clock + \
+                    names['Ptask%s' % i].period
+                ready_queue_period.append(names['Ptask%s' % i])
+                TotalPJobNumber += 1
+        # 將在時間點clock抵達的aperiodic job加入到AQ中
+        for i in range(len(aperiod_jobs)):
+            names['Atask%s' % i] = AperiodTask(arrive_time=aperiod_jobs[i]
+                                             [0], execution_time=aperiod_jobs[i][1], TID=i+1)
+        for i in range(len(aperiod_jobs)):
+            if clock == names['Atask%s' % i].arrive_time:
+                ready_queue_aperiod.append(names['Atask%s' % i])
+                if ready_queue_period[0].arrive_time == clock:
+                    cus_deadline = names['Atask%s' % i].exection_time/0.2 + clock
+        # 根據priority sort ready queue
+        ready_queue_period.sort(key=sort_priority_EDF)
+        # priority最高的exe要減掉一\
+        if ready_queue_period[0].absolute_time <= cus_deadline:
+            chose = 0
+        else:
+            chose = 1
+        if len(ready_queue_period) != 0 and chose == 0:
+            ready_queue_period[0].execution_time -= 1
+            f.write("Time %s : Task %s\n" % (clock, ready_queue_period[0].TID))
+            if ready_queue_period[0].execution_time == 0:
+                del ready_queue_period[0]
+        elif len(ready_queue_aperiod) != 0 and chose == 0:
+            ready_queue_aperiod[0].execution_time -=1
+            f.write("Time %s : No Task\n" % clock)
         clock += 1
-        # print(clock)
+    f.write("Missed Jobs = %s\n" % misstask)
+    f.write("Sum of jobs = %s\n" % TotalPJobNumber)
 
-    print("misstask = %s"%misstask)
-
-
-for i in range(1, 2):
-    print("test%s：" % i)
-    EDF("test%s.txt" % i)
-    
+f = open("0_8.txt",mode="w")
+EDF("cus_test8.txt", "aperodic.txt")
+f.close
