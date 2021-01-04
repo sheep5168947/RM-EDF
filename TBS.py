@@ -39,7 +39,7 @@ def sort_priority_EDF(e):
     return e.absolute_deadline
 
 
-def CUS(period, aperiod,f):
+def TBS(period, aperiod,f):
     peroid_jobs = Readfile(period)
     aperiod_jobs = Readfile(aperiod)
     clock = 0
@@ -159,10 +159,10 @@ def CUS(period, aperiod,f):
 
 f = open("0_8_TBS.txt", mode="w")
 print("tbs_test8.txt\n")
-CUS("cus_test8.txt", "aperodic.txt",f)
+TBS("cus_test8.txt", "aperodic.txt",f)
 f.close
 
 f = open("0_9_TBS.txt", mode="w")
 print("tbs_test9.txt\n")
-CUS("cus_test9.txt", "aperodic.txt",f)
+TBS("cus_test9.txt", "aperodic.txt",f)
 f.close
