@@ -1,0 +1,1005 @@
+Time 0 :Ptask 3
+Time 1 :Ptask 6
+Time 2 :Ptask 6
+Time 3 :Ptask 6
+Time 4 :Ptask 6
+Time 5 :Ptask 2
+Time 6 :Ptask 2
+Time 7 :Ptask 2
+Time 8 :Ptask 2
+Time 9 :Ptask 2
+Time 10 :Ptask 2
+Time 11 :Atask 1 tbs_deadline :46
+Time 12 :Atask 1 tbs_deadline :46
+Time 13 :Atask 1 tbs_deadline :46
+Time 14 :Atask 1 tbs_deadline :46
+Time 15 :Ptask 3
+Time 16 :Atask 1 tbs_deadline :46
+Time 17 :Atask 1 tbs_deadline :46
+Time 18 :Atask 1 tbs_deadline :46
+Time 19 :Ptask 2
+Time 20 :Ptask 7
+Time 21 :Ptask 7
+Time 22 :Ptask 7
+Time 23 :Ptask 7
+Time 24 :Atask 2 tbs_deadline :81
+Time 25 :Atask 2 tbs_deadline :81
+Time 26 :Atask 2 tbs_deadline :81
+Time 27 :Atask 2 tbs_deadline :81
+Time 28 :Atask 2 tbs_deadline :81
+Time 29 :Atask 2 tbs_deadline :81
+Time 30 :Ptask 3
+Time 31 :Atask 2 tbs_deadline :81
+Time 32 :Atask 3 tbs_deadline :116
+Time 33 :Atask 3 tbs_deadline :116
+Time 34 :Atask 3 tbs_deadline :116
+Time 35 :Atask 3 tbs_deadline :116
+Time 36 :Atask 3 tbs_deadline :116
+Time 37 :Atask 3 tbs_deadline :116
+Time 38 :Atask 3 tbs_deadline :116
+Time 39 :Ptask 5
+Time 40 :Ptask 5
+Time 41 :Atask 4 tbs_deadline :136
+Time 42 :Atask 4 tbs_deadline :136
+Time 43 :Atask 4 tbs_deadline :136
+Time 44 :Atask 4 tbs_deadline :136
+Time 45 :Ptask 3
+Time 46 :Ptask 5
+Time 47 :Ptask 5
+Time 48 :Ptask 6
+Time 49 :Ptask 6
+Time 50 :Ptask 6
+Time 51 :Ptask 6
+Time 52 :Ptask 5
+Time 53 :Atask 5 tbs_deadline :151
+Time 54 :Atask 5 tbs_deadline :151
+Time 55 :Atask 5 tbs_deadline :151
+Time 56 :Atask 6 tbs_deadline :156
+Time 57 :Ptask 9
+Time 58 :Ptask 9
+Time 59 :Ptask 9
+Time 60 :Ptask 3
+Time 61 :Ptask 9
+Time 62 :Ptask 9
+Time 63 :Ptask 9
+Time 64 :Ptask 9
+Time 65 :Ptask 9
+Time 66 :Ptask 9
+Time 67 :Ptask 9
+Time 68 :Atask 7 tbs_deadline :176
+Time 69 :Atask 7 tbs_deadline :176
+Time 70 :Atask 7 tbs_deadline :176
+Time 71 :Atask 7 tbs_deadline :176
+Time 72 :Ptask 8
+Time 73 :Ptask 8
+Time 74 :Ptask 2
+Time 75 :Ptask 3
+Time 76 :Ptask 2
+Time 77 :Ptask 2
+Time 78 :Ptask 2
+Time 79 :Ptask 2
+Time 80 :Ptask 2
+Time 81 :Ptask 2
+Time 82 :Ptask 8
+Time 83 :Ptask 8
+Time 84 :Ptask 8
+Time 85 :Ptask 8
+Time 86 :Ptask 8
+Time 87 :Ptask 8
+Time 88 :Ptask 8
+Time 89 :Ptask 8
+Time 90 :Ptask 3
+Time 91 :Ptask 8
+Time 92 :Ptask 8
+Time 93 :Ptask 8
+Time 94 :Ptask 8
+Time 95 :Ptask 8
+Time 96 :Ptask 6
+Time 97 :Ptask 6
+Time 98 :Ptask 6
+Time 99 :Ptask 6
+Time 100 :Ptask 7
+Time 101 :Ptask 7
+Time 102 :Ptask 7
+Time 103 :Ptask 7
+Time 104 :Ptask 8
+Time 105 :Ptask 3
+Time 106 :Ptask 8
+Time 107 :Ptask 8
+Time 108 :Ptask 8
+Time 109 :Ptask 8
+Time 110 :Ptask 8
+Time 111 :Ptask 8
+Time 112 :Ptask 8
+Time 113 :Ptask 8
+Time 114 :Atask 8 tbs_deadline :201
+Time 115 :Atask 8 tbs_deadline :201
+Time 116 :Atask 8 tbs_deadline :201
+Time 117 :Atask 8 tbs_deadline :201
+Time 118 :Atask 8 tbs_deadline :201
+Time 119 :Atask 9 tbs_deadline :231
+Time 120 :Ptask 3
+Time 121 :Atask 9 tbs_deadline :231
+Time 122 :Atask 9 tbs_deadline :231
+Time 123 :Atask 9 tbs_deadline :231
+Time 124 :Atask 9 tbs_deadline :231
+Time 125 :Atask 9 tbs_deadline :231
+Time 126 :Ptask 10
+Time 127 :Ptask 10
+Time 128 :Ptask 10
+Time 129 :Ptask 10
+Time 130 :Ptask 10
+Time 131 :Ptask 10
+Time 132 :Ptask 10
+Time 133 :Ptask 10
+Time 134 :Ptask 10
+Time 135 :Ptask 3
+Time 136 :Ptask 10
+Time 137 :Ptask 10
+Time 138 :Ptask 10
+Time 139 :Ptask 10
+Time 140 :Ptask 10
+Time 141 :Ptask 10
+Time 142 :Ptask 10
+Time 143 :Ptask 10
+Time 144 :Ptask 6
+Time 145 :Ptask 6
+Time 146 :Ptask 6
+Time 147 :Ptask 6
+Time 148 :Ptask 2
+Time 149 :Ptask 2
+Time 150 :Ptask 3
+Time 151 :Ptask 2
+Time 152 :Ptask 2
+Time 153 :Ptask 2
+Time 154 :Ptask 2
+Time 155 :Ptask 2
+Time 156 :Ptask 10
+Time 157 :Ptask 10
+Time 158 :Ptask 10
+Time 159 :Ptask 10
+Time 160 :Ptask 10
+Time 161 :Ptask 10
+Time 162 :Ptask 10
+Time 163 :Ptask 10
+Time 164 :Ptask 10
+Time 165 :Ptask 3
+Time 166 :Ptask 10
+Time 167 :Ptask 10
+Time 168 :Ptask 10
+Time 169 :Ptask 10
+Time 170 :Atask 10 tbs_deadline :251
+Time 171 :Atask 10 tbs_deadline :251
+Time 172 :Atask 10 tbs_deadline :251
+Time 173 :Atask 10 tbs_deadline :251
+Time 174 :Atask 11 tbs_deadline :286
+Time 175 :Atask 11 tbs_deadline :286
+Time 176 :Atask 11 tbs_deadline :286
+Time 177 :Atask 11 tbs_deadline :286
+Time 178 :Atask 11 tbs_deadline :286
+Time 179 :Atask 11 tbs_deadline :286
+Time 180 :Ptask 3
+Time 181 :Atask 11 tbs_deadline :286
+Time 182 :Ptask 4
+Time 183 :Ptask 4
+Time 184 :Ptask 4
+Time 185 :Ptask 4
+Time 186 :Ptask 4
+Time 187 :Ptask 4
+Time 188 :Ptask 4
+Time 189 :Ptask 4
+Time 190 :Ptask 4
+Time 191 :Ptask 4
+Time 192 :Ptask 6
+Time 193 :Ptask 6
+Time 194 :Ptask 6
+Time 195 :Ptask 3
+Time 196 :Ptask 6
+Time 197 :Ptask 4
+Time 198 :Ptask 4
+Time 199 :Ptask 4
+Time 200 :Ptask 4
+Time 201 :Ptask 4
+Time 202 :Ptask 4
+Time 203 :Ptask 4
+Time 204 :Ptask 4
+Time 205 :Ptask 4
+Time 206 :Ptask 4
+Time 207 :Ptask 4
+Time 208 :Ptask 4
+Time 209 :Ptask 7
+Time 210 :Ptask 3
+Time 211 :Ptask 7
+Time 212 :Ptask 7
+Time 213 :Ptask 7
+Time 214 :Ptask 5
+Time 215 :Ptask 5
+Time 216 :Ptask 5
+Time 217 :Ptask 5
+Time 218 :Ptask 5
+Time 219 :Ptask 1
+Time 220 :Ptask 1
+Time 221 :Ptask 1
+Time 222 :Ptask 2
+Time 223 :Ptask 2
+Time 224 :Ptask 2
+Time 225 :Ptask 3
+Time 226 :Ptask 2
+Time 227 :Ptask 2
+Time 228 :Ptask 2
+Time 229 :Ptask 2
+Time 230 :Ptask 1
+Time 231 :Ptask 1
+Time 232 :Ptask 1
+Time 233 :Ptask 1
+Time 234 :Ptask 1
+Time 235 :Ptask 1
+Time 236 :Ptask 1
+Time 237 :Ptask 1
+Time 238 :Ptask 1
+Time 239 :Ptask 1
+Time 240 :Ptask 3
+Time 241 :Ptask 6
+Time 242 :Ptask 6
+Time 243 :Ptask 6
+Time 244 :Ptask 6
+Time 245 :Ptask 1
+Time 246 :Ptask 1
+Time 247 :Ptask 1
+Time 248 :Ptask 1
+Time 249 :Ptask 1
+Time 250 :Ptask 1
+Time 251 :Ptask 1
+Time 252 :Ptask 1
+Time 253 :Ptask 1
+Time 254 :Ptask 1
+Time 255 :Ptask 3
+Time 256 :Ptask 1
+Time 257 :Ptask 1
+Time 258 :Ptask 1
+Time 259 :Ptask 1
+Time 260 :Ptask 1
+Time 261 :Ptask 1
+Time 262 :Ptask 1
+Time 263 :Atask 12 tbs_deadline :311
+Time 264 :Atask 12 tbs_deadline :311
+Time 265 :Atask 12 tbs_deadline :311
+Time 266 :Atask 12 tbs_deadline :311
+Time 267 :Atask 12 tbs_deadline :311
+Time 268 :Atask 13 tbs_deadline :321
+Time 269 :Atask 13 tbs_deadline :321
+Time 270 :Ptask 3
+Time 271 :Atask 14 tbs_deadline :356
+Time 272 :Atask 14 tbs_deadline :356
+Time 273 :Atask 14 tbs_deadline :356
+Time 274 :Atask 14 tbs_deadline :356
+Time 275 :Atask 14 tbs_deadline :356
+Time 276 :Atask 14 tbs_deadline :356
+Time 277 :Atask 14 tbs_deadline :356
+Time 278 :Ptask 9
+Time 279 :Ptask 9
+Time 280 :Ptask 9
+Time 281 :Ptask 9
+Time 282 :Ptask 9
+Time 283 :Ptask 9
+Time 284 :Ptask 9
+Time 285 :Ptask 3
+Time 286 :Ptask 9
+Time 287 :Ptask 9
+Time 288 :Ptask 6
+Time 289 :Ptask 6
+Time 290 :Ptask 6
+Time 291 :Ptask 6
+Time 292 :Ptask 9
+Time 293 :Atask 15 tbs_deadline :371
+Time 294 :Atask 15 tbs_deadline :371
+Time 295 :Atask 15 tbs_deadline :371
+Time 296 :Ptask 2
+Time 297 :Ptask 2
+Time 298 :Ptask 2
+Time 299 :Ptask 2
+Time 300 :Ptask 3
+Time 301 :Ptask 2
+Time 302 :Ptask 2
+Time 303 :Ptask 2
+Time 304 :Ptask 7
+Time 305 :Ptask 7
+Time 306 :Ptask 7
+Time 307 :Ptask 7
+Time 308 :Atask 16 tbs_deadline :391
+Time 309 :Atask 16 tbs_deadline :391
+Time 310 :Atask 16 tbs_deadline :391
+Time 311 :Atask 16 tbs_deadline :391
+Time 312 :Ptask 8
+Time 313 :Ptask 8
+Time 314 :Ptask 8
+Time 315 :Ptask 3
+Time 316 :Ptask 8
+Time 317 :Ptask 8
+Time 318 :Ptask 8
+Time 319 :Ptask 8
+Time 320 :Ptask 8
+Time 321 :Ptask 8
+Time 322 :Ptask 8
+Time 323 :Ptask 8
+Time 324 :Ptask 8
+Time 325 :Ptask 8
+Time 326 :Ptask 8
+Time 327 :Ptask 8
+Time 328 :Ptask 8
+Time 329 :Ptask 8
+Time 330 :Ptask 3
+Time 331 :Ptask 8
+Time 332 :Ptask 8
+Time 333 :Ptask 8
+Time 334 :Ptask 8
+Time 335 :Ptask 8
+Time 336 :Ptask 6
+Time 337 :Ptask 6
+Time 338 :Ptask 6
+Time 339 :Ptask 6
+Time 340 :Ptask 8
+Time 341 :Ptask 8
+Time 342 :Atask 17 tbs_deadline :411
+Time 343 :Atask 17 tbs_deadline :411
+Time 344 :Atask 17 tbs_deadline :411
+Time 345 :Ptask 3
+Time 346 :Atask 17 tbs_deadline :411
+Time 347 :Atask 18 tbs_deadline :421
+Time 348 :Atask 18 tbs_deadline :421
+Time 349 :Ptask 5
+Time 350 :Ptask 5
+Time 351 :Ptask 5
+Time 352 :Ptask 5
+Time 353 :Ptask 5
+Time 354 :Atask 19 tbs_deadline :441
+Time 355 :Atask 19 tbs_deadline :441
+Time 356 :Atask 19 tbs_deadline :441
+Time 357 :Atask 19 tbs_deadline :441
+Time 358 :Atask 20 tbs_deadline :476
+Time 359 :Atask 20 tbs_deadline :476
+Time 360 :Ptask 3
+Time 361 :Atask 20 tbs_deadline :476
+Time 362 :Atask 20 tbs_deadline :476
+Time 363 :Atask 20 tbs_deadline :476
+Time 364 :Atask 20 tbs_deadline :476
+Time 365 :Atask 20 tbs_deadline :476
+Time 366 :Ptask 10
+Time 367 :Ptask 10
+Time 368 :Ptask 10
+Time 369 :Ptask 10
+Time 370 :Ptask 2
+Time 371 :Ptask 2
+Time 372 :Ptask 2
+Time 373 :Ptask 2
+Time 374 :Ptask 2
+Time 375 :Ptask 3
+Time 376 :Ptask 2
+Time 377 :Ptask 2
+Time 378 :Ptask 10
+Time 379 :Ptask 10
+Time 380 :Ptask 10
+Time 381 :Ptask 10
+Time 382 :Ptask 10
+Time 383 :Ptask 10
+Time 384 :Ptask 6
+Time 385 :Ptask 6
+Time 386 :Ptask 6
+Time 387 :Ptask 6
+Time 388 :Ptask 7
+Time 389 :Ptask 7
+Time 390 :Ptask 3
+Time 391 :Ptask 7
+Time 392 :Ptask 7
+Time 393 :Ptask 10
+Time 394 :Ptask 10
+Time 395 :Ptask 10
+Time 396 :Ptask 10
+Time 397 :Ptask 10
+Time 398 :Ptask 10
+Time 399 :Ptask 10
+Time 400 :Ptask 10
+Time 401 :Ptask 10
+Time 402 :Ptask 10
+Time 403 :Ptask 10
+Time 404 :Ptask 10
+Time 405 :Ptask 3
+Time 406 :Ptask 10
+Time 407 :Ptask 10
+Time 408 :Ptask 10
+Time 409 :Ptask 10
+Time 410 :Ptask 10
+Time 411 :Ptask 10
+Time 412 :Ptask 10
+Time 413 :Ptask 10
+Time 414 :Atask 21 tbs_deadline :501
+Time 415 :Atask 21 tbs_deadline :501
+Time 416 :Atask 21 tbs_deadline :501
+Time 417 :Atask 21 tbs_deadline :501
+Time 418 :Atask 21 tbs_deadline :501
+Time 419 :Atask 22 tbs_deadline :531
+Time 420 :Ptask 3
+Time 421 :Atask 22 tbs_deadline :531
+Time 422 :Atask 22 tbs_deadline :531
+Time 423 :Atask 22 tbs_deadline :531
+Time 424 :Atask 22 tbs_deadline :531
+Time 425 :Atask 22 tbs_deadline :531
+Time 426 :Ptask 9
+Time 427 :Ptask 9
+Time 428 :Ptask 9
+Time 429 :Ptask 9
+Time 430 :Ptask 9
+Time 431 :Ptask 9
+Time 432 :Ptask 6
+Time 433 :Ptask 6
+Time 434 :Ptask 6
+Time 435 :Ptask 3
+Time 436 :Ptask 6
+Time 437 :Ptask 9
+Time 438 :Ptask 9
+Time 439 :Ptask 9
+Time 440 :Ptask 9
+Time 441 :Atask 23 tbs_deadline :561
+Time 442 :Atask 23 tbs_deadline :561
+Time 443 :Atask 23 tbs_deadline :561
+Time 444 :Ptask 2
+Time 445 :Ptask 2
+Time 446 :Ptask 2
+Time 447 :Ptask 2
+Time 448 :Ptask 2
+Time 449 :Ptask 2
+Time 450 :Ptask 3
+Time 451 :Ptask 2
+Time 452 :Atask 23 tbs_deadline :561
+Time 453 :Atask 23 tbs_deadline :561
+Time 454 :Atask 23 tbs_deadline :561
+Time 455 :Ptask 4
+Time 456 :Ptask 4
+Time 457 :Ptask 4
+Time 458 :Ptask 4
+Time 459 :Ptask 4
+Time 460 :Ptask 4
+Time 461 :Ptask 4
+Time 462 :Ptask 4
+Time 463 :Ptask 4
+Time 464 :Ptask 4
+Time 465 :Ptask 3
+Time 466 :Ptask 4
+Time 467 :Ptask 4
+Time 468 :Ptask 4
+Time 469 :Ptask 4
+Time 470 :Ptask 4
+Time 471 :Ptask 4
+Time 472 :Ptask 4
+Time 473 :Ptask 4
+Time 474 :Ptask 4
+Time 475 :Ptask 4
+Time 476 :Ptask 4
+Time 477 :Ptask 4
+Time 478 :Ptask 5
+Time 479 :Ptask 5
+Time 480 :Ptask 3
+Time 481 :Ptask 6
+Time 482 :Ptask 6
+Time 483 :Ptask 6
+Time 484 :Ptask 6
+Time 485 :Ptask 7
+Time 486 :Ptask 7
+Time 487 :Ptask 7
+Time 488 :Ptask 7
+Time 489 :Ptask 5
+Time 490 :Ptask 5
+Time 491 :Ptask 5
+Time 492 :Ptask 8
+Time 493 :Ptask 8
+Time 494 :Ptask 8
+Time 495 :Ptask 3
+Time 496 :Ptask 8
+Time 497 :Ptask 8
+Time 498 :Ptask 8
+Time 499 :Ptask 8
+Time 500 :Ptask 8
+Time 501 :Ptask 8
+Time 502 :Ptask 8
+Time 503 :Ptask 8
+Time 504 :Ptask 8
+Time 505 :Ptask 8
+Time 506 :Ptask 8
+Time 507 :Ptask 8
+Time 508 :Ptask 8
+Time 509 :Ptask 8
+Time 510 :Ptask 3
+Time 511 :Ptask 8
+Time 512 :Ptask 8
+Time 513 :Ptask 8
+Time 514 :Ptask 8
+Time 515 :Ptask 8
+Time 516 :Ptask 8
+Time 517 :Ptask 8
+Time 518 :Atask 24 tbs_deadline :591
+Time 519 :Atask 24 tbs_deadline :591
+Time 520 :Atask 24 tbs_deadline :591
+Time 521 :Atask 24 tbs_deadline :591
+Time 522 :Atask 24 tbs_deadline :591
+Time 523 :Atask 24 tbs_deadline :591
+Time 524 :Ptask 2
+Time 525 :Ptask 3
+Time 526 :Ptask 2
+Time 527 :Ptask 2
+Time 528 :Ptask 6
+Time 529 :Ptask 6
+Time 530 :Ptask 6
+Time 531 :Ptask 6
+Time 532 :Ptask 2
+Time 533 :Ptask 2
+Time 534 :Ptask 2
+Time 535 :Ptask 2
+Time 536 :Ptask 1
+Time 537 :Ptask 1
+Time 538 :Ptask 1
+Time 539 :Ptask 1
+Time 540 :Ptask 3
+Time 541 :Ptask 1
+Time 542 :Ptask 1
+Time 543 :Ptask 1
+Time 544 :Ptask 1
+Time 545 :Ptask 1
+Time 546 :Ptask 1
+Time 547 :Ptask 1
+Time 548 :Ptask 1
+Time 549 :Ptask 1
+Time 550 :Ptask 1
+Time 551 :Ptask 1
+Time 552 :Ptask 1
+Time 553 :Ptask 1
+Time 554 :Ptask 1
+Time 555 :Ptask 3
+Time 556 :Ptask 1
+Time 557 :Ptask 1
+Time 558 :Ptask 1
+Time 559 :Ptask 1
+Time 560 :Ptask 1
+Time 561 :Ptask 1
+Time 562 :Ptask 1
+Time 563 :Ptask 1
+Time 564 :Ptask 1
+Time 565 :Ptask 1
+Time 566 :Ptask 1
+Time 567 :Ptask 1
+Time 568 :Atask 25 tbs_deadline :621
+Time 569 :Atask 25 tbs_deadline :621
+Time 570 :Ptask 3
+Time 571 :Atask 25 tbs_deadline :621
+Time 572 :Atask 25 tbs_deadline :621
+Time 573 :Atask 25 tbs_deadline :621
+Time 574 :Atask 25 tbs_deadline :621
+Time 575 :Atask 26 tbs_deadline :651
+Time 576 :Ptask 6
+Time 577 :Ptask 6
+Time 578 :Ptask 6
+Time 579 :Ptask 6
+Time 580 :Atask 26 tbs_deadline :651
+Time 581 :Atask 26 tbs_deadline :651
+Time 582 :Atask 26 tbs_deadline :651
+Time 583 :Atask 26 tbs_deadline :651
+Time 584 :Atask 26 tbs_deadline :651
+Time 585 :Ptask 3
+Time 586 :Ptask 7
+Time 587 :Ptask 7
+Time 588 :Ptask 7
+Time 589 :Ptask 7
+Time 590 :Atask 27 tbs_deadline :681
+Time 591 :Atask 27 tbs_deadline :681
+Time 592 :Ptask 2
+Time 593 :Ptask 2
+Time 594 :Ptask 2
+Time 595 :Ptask 2
+Time 596 :Ptask 2
+Time 597 :Ptask 2
+Time 598 :Ptask 2
+Time 599 :Atask 27 tbs_deadline :681
+Time 600 :Ptask 3
+Time 601 :Atask 27 tbs_deadline :681
+Time 602 :Atask 27 tbs_deadline :681
+Time 603 :Atask 27 tbs_deadline :681
+Time 604 :Atask 28 tbs_deadline :711
+Time 605 :Atask 28 tbs_deadline :711
+Time 606 :Atask 28 tbs_deadline :711
+Time 607 :Atask 28 tbs_deadline :711
+Time 608 :Atask 28 tbs_deadline :711
+Time 609 :Atask 28 tbs_deadline :711
+Time 610 :Ptask 9
+Time 611 :Ptask 9
+Time 612 :Ptask 9
+Time 613 :Ptask 9
+Time 614 :Ptask 9
+Time 615 :Ptask 3
+Time 616 :Ptask 9
+Time 617 :Ptask 9
+Time 618 :Ptask 9
+Time 619 :Ptask 9
+Time 620 :Ptask 9
+Time 621 :Ptask 5
+Time 622 :Ptask 5
+Time 623 :Ptask 5
+Time 624 :Ptask 6
+Time 625 :Ptask 6
+Time 626 :Ptask 6
+Time 627 :Ptask 6
+Time 628 :Ptask 5
+Time 629 :Ptask 5
+Time 630 :Ptask 3
+Time 631 :Ptask 10
+Time 632 :Ptask 10
+Time 633 :Ptask 10
+Time 634 :Ptask 10
+Time 635 :Ptask 10
+Time 636 :Ptask 10
+Time 637 :Ptask 10
+Time 638 :Ptask 10
+Time 639 :Ptask 10
+Time 640 :Ptask 10
+Time 641 :Ptask 10
+Time 642 :Ptask 10
+Time 643 :Ptask 10
+Time 644 :Ptask 10
+Time 645 :Ptask 3
+Time 646 :Ptask 10
+Time 647 :Ptask 10
+Time 648 :Ptask 10
+Time 649 :Ptask 10
+Time 650 :Ptask 10
+Time 651 :Ptask 10
+Time 652 :Ptask 10
+Time 653 :Ptask 10
+Time 654 :Ptask 10
+Time 655 :Ptask 10
+Time 656 :Ptask 10
+Time 657 :Ptask 10
+Time 658 :Ptask 10
+Time 659 :Ptask 10
+Time 660 :Ptask 3
+Time 661 :Ptask 10
+Time 662 :Ptask 10
+Time 663 :Atask 29 tbs_deadline :741
+Time 664 :Atask 29 tbs_deadline :741
+Time 665 :Atask 29 tbs_deadline :741
+Time 666 :Ptask 2
+Time 667 :Ptask 2
+Time 668 :Ptask 2
+Time 669 :Ptask 2
+Time 670 :Ptask 2
+Time 671 :Ptask 2
+Time 672 :Ptask 6
+Time 673 :Ptask 6
+Time 674 :Ptask 6
+Time 675 :Ptask 3
+Time 676 :Ptask 6
+Time 677 :Ptask 2
+Time 678 :Atask 29 tbs_deadline :741
+Time 679 :Atask 29 tbs_deadline :741
+Time 680 :Atask 29 tbs_deadline :741
+Time 681 :Ptask 7
+Time 682 :Ptask 7
+Time 683 :Ptask 7
+Time 684 :Ptask 7
+Time 685 :Atask 30 tbs_deadline :771
+Time 686 :Atask 30 tbs_deadline :771
+Time 687 :Atask 30 tbs_deadline :771
+Time 688 :Atask 30 tbs_deadline :771
+Time 689 :Atask 30 tbs_deadline :771
+Time 690 :Ptask 3
+Time 691 :Atask 30 tbs_deadline :771
+Time 692 :Ptask 8
+Time 693 :Ptask 8
+Time 694 :Ptask 8
+Time 695 :Ptask 8
+Time 696 :Ptask 8
+Time 697 :Ptask 8
+Time 698 :Ptask 8
+Time 699 :Ptask 8
+Time 700 :Ptask 8
+Time 701 :Ptask 8
+Time 702 :Ptask 8
+Time 703 :Ptask 8
+Time 704 :Ptask 8
+Time 705 :Ptask 3
+Time 706 :Ptask 8
+Time 707 :Ptask 8
+Time 708 :Ptask 8
+Time 709 :Ptask 8
+Time 710 :Ptask 8
+Time 711 :Ptask 8
+Time 712 :Ptask 8
+Time 713 :Ptask 8
+Time 714 :Ptask 8
+Time 715 :Ptask 8
+Time 716 :Ptask 8
+Time 717 :Atask 31 tbs_deadline :801
+Time 718 :Atask 31 tbs_deadline :801
+Time 719 :Atask 31 tbs_deadline :801
+Time 720 :Ptask 3
+Time 721 :Ptask 6
+Time 722 :Ptask 6
+Time 723 :Ptask 6
+Time 724 :Ptask 6
+Time 725 :Atask 31 tbs_deadline :801
+Time 726 :Atask 31 tbs_deadline :801
+Time 727 :Atask 31 tbs_deadline :801
+Time 728 :Atask 32 tbs_deadline :831
+Time 729 :Atask 32 tbs_deadline :831
+Time 730 :Atask 32 tbs_deadline :831
+Time 731 :Atask 32 tbs_deadline :831
+Time 732 :Atask 32 tbs_deadline :831
+Time 733 :Atask 32 tbs_deadline :831
+Time 734 :Atask 33 tbs_deadline :836
+Time 735 :Ptask 3
+Time 736 :Atask 34 tbs_deadline :851
+Time 737 :Atask 34 tbs_deadline :851
+Time 738 :Atask 34 tbs_deadline :851
+Time 739 :Atask 35 tbs_deadline :856
+Time 740 :Ptask 2
+Time 741 :Ptask 2
+Time 742 :Ptask 2
+Time 743 :Ptask 2
+Time 744 :Ptask 2
+Time 745 :Ptask 2
+Time 746 :Ptask 2
+Time 747 :Ptask 4
+Time 748 :Ptask 4
+Time 749 :Ptask 4
+Time 750 :Ptask 3
+Time 751 :Ptask 4
+Time 752 :Ptask 4
+Time 753 :Ptask 4
+Time 754 :Ptask 4
+Time 755 :Ptask 4
+Time 756 :Ptask 4
+Time 757 :Ptask 4
+Time 758 :Ptask 4
+Time 759 :Ptask 4
+Time 760 :Ptask 4
+Time 761 :Ptask 4
+Time 762 :Ptask 4
+Time 763 :Ptask 4
+Time 764 :Ptask 4
+Time 765 :Ptask 3
+Time 766 :Ptask 4
+Time 767 :Ptask 4
+Time 768 :Ptask 6
+Time 769 :Ptask 6
+Time 770 :Ptask 6
+Time 771 :Ptask 6
+Time 772 :Ptask 4
+Time 773 :Ptask 4
+Time 774 :Ptask 4
+Time 775 :Ptask 7
+Time 776 :Ptask 7
+Time 777 :Ptask 7
+Time 778 :Ptask 7
+Time 779 :Ptask 5
+Time 780 :Ptask 3
+Time 781 :Ptask 5
+Time 782 :Ptask 5
+Time 783 :Ptask 5
+Time 784 :Ptask 5
+Time 785 :Atask 36 tbs_deadline :886
+Time 786 :Atask 36 tbs_deadline :886
+Time 787 :Atask 36 tbs_deadline :886
+Time 788 :Atask 36 tbs_deadline :886
+Time 789 :Atask 36 tbs_deadline :886
+Time 790 :Atask 36 tbs_deadline :886
+Time 791 :Ptask 9
+Time 792 :Ptask 9
+Time 793 :Ptask 9
+Time 794 :Ptask 9
+Time 795 :Ptask 3
+Time 796 :Ptask 9
+Time 797 :Ptask 9
+Time 798 :Ptask 9
+Time 799 :Ptask 9
+Time 800 :Ptask 9
+Time 801 :Ptask 9
+Time 802 :Ptask 1
+Time 803 :Ptask 1
+Time 804 :Ptask 1
+Time 805 :Ptask 1
+Time 806 :Ptask 1
+Time 807 :Ptask 1
+Time 808 :Ptask 1
+Time 809 :Ptask 1
+Time 810 :Ptask 3
+Time 811 :Ptask 1
+Time 812 :Ptask 1
+Time 813 :Ptask 1
+Time 814 :Ptask 2
+Time 815 :Ptask 2
+Time 816 :Ptask 6
+Time 817 :Ptask 6
+Time 818 :Ptask 6
+Time 819 :Ptask 6
+Time 820 :Ptask 2
+Time 821 :Ptask 2
+Time 822 :Ptask 2
+Time 823 :Ptask 2
+Time 824 :Ptask 2
+Time 825 :Ptask 3
+Time 826 :Ptask 1
+Time 827 :Ptask 1
+Time 828 :Ptask 1
+Time 829 :Ptask 1
+Time 830 :Ptask 1
+Time 831 :Ptask 1
+Time 832 :Ptask 1
+Time 833 :Ptask 1
+Time 834 :Ptask 1
+Time 835 :Ptask 1
+Time 836 :Ptask 1
+Time 837 :Ptask 1
+Time 838 :Ptask 1
+Time 839 :Ptask 1
+Time 840 :Ptask 3
+Time 841 :Ptask 1
+Time 842 :Ptask 1
+Time 843 :Ptask 1
+Time 844 :Ptask 1
+Time 845 :Ptask 1
+Time 846 :Atask 37 tbs_deadline :921
+Time 847 :Atask 37 tbs_deadline :921
+Time 848 :Atask 37 tbs_deadline :921
+Time 849 :Atask 37 tbs_deadline :921
+Time 850 :Atask 37 tbs_deadline :921
+Time 851 :Atask 37 tbs_deadline :921
+Time 852 :Atask 37 tbs_deadline :921
+Time 853 :Atask 38 tbs_deadline :931
+Time 854 :Atask 38 tbs_deadline :931
+Time 855 :Ptask 3
+Time 856 :Atask 39 tbs_deadline :936
+Time 857 :Atask 40 tbs_deadline :966
+Time 858 :Atask 40 tbs_deadline :966
+Time 859 :Atask 40 tbs_deadline :966
+Time 860 :Atask 40 tbs_deadline :966
+Time 861 :Atask 40 tbs_deadline :966
+Time 862 :Atask 40 tbs_deadline :966
+Time 863 :Ptask 10
+Time 864 :Ptask 6
+Time 865 :Ptask 6
+Time 866 :Ptask 6
+Time 867 :Ptask 6
+Time 868 :Ptask 7
+Time 869 :Ptask 7
+Time 870 :Ptask 3
+Time 871 :Ptask 7
+Time 872 :Ptask 7
+Time 873 :Ptask 10
+Time 874 :Ptask 10
+Time 875 :Ptask 10
+Time 876 :Ptask 10
+Time 877 :Ptask 10
+Time 878 :Ptask 10
+Time 879 :Ptask 10
+Time 880 :Ptask 10
+Time 881 :Ptask 10
+Time 882 :Ptask 10
+Time 883 :Ptask 10
+Time 884 :Ptask 10
+Time 885 :Ptask 3
+Time 886 :Ptask 10
+Time 887 :Ptask 10
+Time 888 :Ptask 2
+Time 889 :Ptask 2
+Time 890 :Ptask 2
+Time 891 :Ptask 2
+Time 892 :Ptask 2
+Time 893 :Ptask 2
+Time 894 :Ptask 2
+Time 895 :Ptask 10
+Time 896 :Ptask 10
+Time 897 :Ptask 10
+Time 898 :Ptask 10
+Time 899 :Ptask 10
+Time 900 :Ptask 3
+Time 901 :Ptask 10
+Time 902 :Ptask 10
+Time 903 :Ptask 10
+Time 904 :Ptask 10
+Time 905 :Ptask 10
+Time 906 :Ptask 10
+Time 907 :Ptask 10
+Time 908 :Ptask 10
+Time 909 :Ptask 10
+Time 910 :Ptask 10
+Time 911 :Ptask 8
+Time 912 :Ptask 6
+Time 913 :Ptask 6
+Time 914 :Ptask 6
+Time 915 :Ptask 3
+Time 916 :Ptask 6
+Time 917 :Ptask 8
+Time 918 :Ptask 8
+Time 919 :Ptask 8
+Time 920 :Ptask 8
+Time 921 :Ptask 8
+Time 922 :Ptask 8
+Time 923 :Ptask 8
+Time 924 :Ptask 8
+Time 925 :Ptask 8
+Time 926 :Ptask 8
+Time 927 :Ptask 8
+Time 928 :Ptask 8
+Time 929 :Ptask 8
+Time 930 :Ptask 3
+Time 931 :Ptask 8
+Time 932 :Ptask 8
+Time 933 :Ptask 8
+Time 934 :Ptask 8
+Time 935 :Ptask 8
+Time 936 :Ptask 8
+Time 937 :Ptask 8
+Time 938 :Ptask 8
+Time 939 :Ptask 8
+Time 940 :Ptask 8
+Time 941 :Atask 41 tbs_deadline :991
+Time 942 :Atask 41 tbs_deadline :991
+Time 943 :Atask 41 tbs_deadline :991
+Time 944 :Atask 41 tbs_deadline :991
+Time 945 :Ptask 3
+Time 946 :Atask 41 tbs_deadline :991
+Time 947 :Ptask 5
+Time 948 :Ptask 5
+Time 949 :Ptask 5
+Time 950 :Ptask 5
+Time 951 :Ptask 5
+Time 952 :Atask 42 tbs_deadline :1026
+Time 953 :Atask 42 tbs_deadline :1026
+Time 954 :Atask 42 tbs_deadline :1026
+Time 955 :Atask 42 tbs_deadline :1026
+Time 956 :Atask 42 tbs_deadline :1026
+Time 957 :Atask 42 tbs_deadline :1026
+Time 958 :Atask 42 tbs_deadline :1026
+Time 959 :Atask 43 tbs_deadline :1061
+Time 960 :Ptask 3
+Time 961 :Ptask 6
+Time 962 :Ptask 6
+Time 963 :Ptask 6
+Time 964 :Ptask 6
+Time 965 :Ptask 2
+Time 966 :Ptask 2
+Time 967 :Ptask 2
+Time 968 :Ptask 2
+Time 969 :Ptask 2
+Time 970 :Ptask 2
+Time 971 :Ptask 2
+Time 972 :Ptask 7
+Time 973 :Ptask 7
+Time 974 :Ptask 7
+Time 975 :Ptask 3
+Time 976 :Ptask 7
+Time 977 :Atask 43 tbs_deadline :1061
+Time 978 :Atask 43 tbs_deadline :1061
+Time 979 :Atask 43 tbs_deadline :1061
+Time 980 :Atask 43 tbs_deadline :1061
+Time 981 :Atask 43 tbs_deadline :1061
+Time 982 :Atask 43 tbs_deadline :1061
+Time 983 :Ptask 9
+Time 984 :Ptask 9
+Time 985 :Ptask 9
+Time 986 :Ptask 9
+Time 987 :Ptask 9
+Time 988 :Ptask 9
+Time 989 :Ptask 9
+Time 990 :Ptask 3
+Time 991 :Ptask 9
+Time 992 :Ptask 9
+Time 993 :Ptask 9
+Time 994 :Atask 44 tbs_deadline :1086
+Time 995 :Atask 44 tbs_deadline :1086
+Time 996 :Atask 44 tbs_deadline :1086
+Time 997 :Atask 44 tbs_deadline :1086
+Time 998 :Atask 44 tbs_deadline :1086
+Time 999 :Atask 45 tbs_deadline :1106
+Missed Jobs = 0
+Sum of jobs = 145
+Miss_rate = 0.00
+FinishedAJobNumber = 44
+Average_Reponse_Time = 300.50
